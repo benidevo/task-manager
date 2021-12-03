@@ -9,6 +9,7 @@ The following technologies were used in this project:
 - [Typescript](https://www.typescriptlang.org/)
 - [Node.js](https://nodejs.org/en/)
 - [Nest.js](https://nestjs.com/)
+- [JSON Web Tokens](https://jwt.io/)
 - [PostgreSQL](https://www.postgresql.org/)
 - [TypeORM](https://typeorm.io/#/)
 
