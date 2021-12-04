@@ -9,7 +9,7 @@ import * as bcrypt from 'bcrypt';
 
 @EntityRepository(User)
 export class UsersRepository extends Repository<User> {
-  async createUser(authCredentialsDto: AuthCredentialsDto): Promise<User> {
+  async createUser(authCredentialsDto: AuthCredentialsDto): Promise<void> {
     const { username, password } = authCredentialsDto;
 
     const salt = await bcrypt.genSalt();
@@ -25,7 +25,5 @@ export class UsersRepository extends Repository<User> {
         throw new InternalServerErrorException();
       }
     }
-
-    return user;
   }
 }
