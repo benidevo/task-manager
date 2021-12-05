@@ -1,7 +1,7 @@
 # Task Manager API
 
 ## Description
-
+A simple task manager API built with NestJS.
 ## Technologies 
 
 The following technologies were used in this project:
@@ -34,20 +34,4 @@ $ yarn run start
 
 # watch mode
 $ yarn run start:dev
-
-# production mode
-$ yarn run start:prod
-```
-
-## Test
-
-```bash
-# unit tests
-$ yarn run test
-
-# e2e tests
-$ yarn run test:e2e
-
-# test coverage
-$ yarn run test:cov
 ```
