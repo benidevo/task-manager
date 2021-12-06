@@ -1,7 +1,7 @@
 # Task Manager API
 
 ## Description
-A simple task manager API built with NestJS.
+A simple task manager RESETFul API built using NestJS and TypeScript with basic CRUD functionality.
 ## Technologies 
 
 The following technologies were used in this project:
